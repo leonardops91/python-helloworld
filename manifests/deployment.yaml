@@ -19,7 +19,7 @@ spec:
       creationTimestamp: null
       labels:
         app: python-helloword
-    	tag: latest
+        tag: latest
     spec:
       containers:
       - image: leonardops91/python-helloworld:latest
