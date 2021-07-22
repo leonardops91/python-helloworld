@@ -3,9 +3,9 @@ kind: Deployment
 metadata:
   creationTimestamp: null
   labels:
-    app: python-helloword
+    app: python-helloworld
     tag: latest
-  name: python-helloword
+  name: python-helloworld
   namespace: test
 spec:
   replicas: 3
