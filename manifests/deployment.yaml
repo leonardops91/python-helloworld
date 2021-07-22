@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    app: python-helloword
+    tag: latest
+  name: python-helloword
+  namespace: test
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: python-helloword
+      tag: latest
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        app: python-helloword
+    	tag: latest
+    spec:
+      containers:
+      - image: leonardops91/python-helloworld:latest
+        name: python-helloworld
+        resources: {}
+status: {}
