@@ -8,7 +8,7 @@ image:
   tag: 1.17.0
   pullPolicy: ifNotPresent
 ## set the number of replicas for an application 
-replicaCount: 2
+replicaCount: 3
 
 ##set the resurces configs
 resources:
